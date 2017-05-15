@@ -2,6 +2,10 @@ body {
   padding-top: 100px;
 }
 
+a:hover{
+  text-decoration: none;
+  font-weight: bold;
+}
 #home {
   padding-bottom: 100px;
 }
@@ -18,8 +22,13 @@ ul {
   border-radius: 50%;
 }
 
+section{
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
 .bubbles {
-  font-family: "Varela Round", sans-serif;
+  font-family: sans-serif;
   font-size: 18px;
   text-align: center;
   line-height: 140px;
@@ -46,24 +55,25 @@ ul {
 
 p {
   font-family: "varela round";
-  font-size: 18px;
+  font-size: 18px
 }
 
 #experience {
   background-color: #f8f8f8;
-  padding-top: 60px;
+  padding-top: 4.5em;
 }
 
 .section-header {
   text-align: center;
   color: #222222;
   style: none;
-  margin-bottom:50px;
+  padding:1em;
+  /*margin-bottom:50px;*/
 }
 
-.subheading {
+section .subheading {
   text-align: center;
-  margin-bottom: 50px;
+  padding-bottom: 1em;
 }
 
 .block {
@@ -76,9 +86,6 @@ p {
   color: #00b796;
 }
 
-#project-section{
-  padding-top: 60px;
-}
 .btn-default{
   background-color:none;
   color:#00b796;
@@ -96,8 +103,17 @@ p {
   margin-bottom:50px;
 }
 
-#project-section{
-  padding-bottom:50px;
+table{
+  font-family: "varela round";
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #f8f8f8;
+}
+
+.secondary-link{
+  font-weight: lighter;
+  font-size: .8em;
 }
 
 .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
@@ -125,6 +141,7 @@ p {
 #send-button:target{
   background-color:orange;
 }
+
 .webs{
   padding-bottom:50px;
 }
@@ -194,4 +211,3 @@ p.copyright {
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
 }
-
